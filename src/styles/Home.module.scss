@@ -164,7 +164,7 @@
         }
 
         img{
-            max-width: 400px;
+            max-width: 350px;
         }
 
         div h1{
@@ -205,3 +205,57 @@
     }
 }    
 
+@media (max-width: 550px){
+    .container{
+        .containerHeader{
+            flex-direction: column;
+
+            button{
+                width: 90%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        img{
+            max-width: 300px;
+        }
+
+        div h1{
+            font-size: 3rem;
+        }
+
+        div h2{
+            font-size: 1rem;
+
+            span{
+                font-size: 2.3rem;
+            }
+        }
+
+        .sectionContent{
+            flex-direction: column;
+
+            img{
+                margin-top: 2rem;
+                max-width: 300px;
+            }
+        }
+        .nextLevelContent{
+            h2{
+                font-size: 2rem;
+                line-height: 2rem;
+                font-weight: 900;
+                color: var(--white);
+        
+                span{
+                    font-size: 2.8rem;
+                    line-height: 4.5rem;
+                    font-weight: 900;
+                    color: var(--blue-900);
+                }
+            }
+        }
+    }
+}    
